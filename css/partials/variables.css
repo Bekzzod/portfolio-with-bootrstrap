@@ -14,5 +14,7 @@ body {
   --gradient-color: linear-gradient(to right, #536dfe, #5069f4, #4c64eb, #4960e1, #465cd8);
   --title-color: black;
 
+  --box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+
   --raleway: "Raleway", sans-serif;
 }
