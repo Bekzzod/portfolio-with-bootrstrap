@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* CSS variables */
+
+:root {
+  --primary-color: #536dfe;
+
+  --gradient-color: linear-gradient(to right, #536dfe, #5069f4, #4c64eb, #4960e1, #465cd8);
+  --title-color: black;
+
+  --raleway: "Raleway", sans-serif;
+}

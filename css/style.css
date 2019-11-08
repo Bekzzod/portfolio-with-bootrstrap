@@ -1,0 +1,38 @@
+@import url("./fonts.css");
+@import url("./partials/_variables.css");
+
+/* Start navigation */
+
+.head .main_menu .navbar .navbar-brand {
+  font-family: var(--raleway);
+  text-transform: uppercase;
+  padding: 0 2rem 0 5rem;
+}
+
+.head .main_menu .navbar {
+  padding: 1rem 15rem;
+}
+
+.head .main_menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--raleway);
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1rem;
+  color: var(--title-color);
+}
+
+.head .main_menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.head .main_menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* End navigation */
