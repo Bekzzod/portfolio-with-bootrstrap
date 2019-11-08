@@ -36,3 +36,39 @@
 }
 
 /* End navigation */
+
+/* Start banner area */
+
+.site_main .site_banner .site-title h3 {
+  padding-top: 35%;
+}
+
+.site_main .site_banner .site-title h1 {
+  font-size: 4rem;
+}
+
+.site_main .site_banner .site-title h4 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.site_main .site_banner .site-title h4::after {
+  content: "";
+  border-right: 1px solid black;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.site_main .site_banner .banner > img {
+  padding: 7rem 0;
+}
+
+/* End banner area */
