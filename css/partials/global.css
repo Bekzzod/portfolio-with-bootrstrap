@@ -46,6 +46,12 @@
 
 .button.secondary-button:hover {
   background: var(--gradient-color);
+  background-clip: padding-box;
   color: whitesmoke;
   box-shadow: var(--box-shadow);
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--raleway);
 }

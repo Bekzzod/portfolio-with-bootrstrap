@@ -41,7 +41,7 @@
 /* Start banner area */
 
 .site_main .site_banner .site-title h3 {
-  padding-top: 35%;
+  padding-top: 25%;
 }
 
 .site_main .site_banner .site-title h1 {
@@ -73,3 +73,21 @@
 }
 
 /* End banner area */
+
+/* Start about area */
+
+.site_main .about_area {
+  padding: 8rem 5rem;
+}
+
+.site_main .about_area .about_title h2 > span {
+  display: block;
+  font: normal bold 45px/50px var(--raleway);
+  letter-spacing: 20px;
+}
+
+.site_main .about_area .about_title .paragraph > p {
+  padding: .5rem 0;
+}
+
+/* End about area */
